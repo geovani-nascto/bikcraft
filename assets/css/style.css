@@ -1,6 +1,7 @@
 /*Gerais*/
 @import './global/global.css';
 @import './util/typograph.css';
+@import './util/colors.css';
 
 @import './global/header.css';
 

@@ -1,6 +1,6 @@
 .intro-bg{
-    background: var(--cor-12);
-    color: #fff;
+    background-color: var(--cor-12);
+    color: var(--cor-0);
     box-shadow: inset 0 -120px var(--cor-0);
 }
 
@@ -20,10 +20,6 @@
 
 .intro h1{
     margin-bottom: 32px;
-}
-
-.intro h1 span{
-    color: var(--cor-p1);
 }
 
 .intro p{
@@ -54,7 +50,7 @@
     .intro-bg{
         background-color: var(--cor-11);
         padding-top: 40px;
-        box-shadow: inset 0 -60px #fff;
+        box-shadow: inset 0 -60px var(--cor-0);
     }
     .intro{
         grid-template-columns: 1fr;
