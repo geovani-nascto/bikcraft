@@ -22,3 +22,12 @@ img{
     max-width: 100%;
     display: block;
 }
+
+img[src$='.jpg']{
+    border-radius: 4px;
+}
+
+h1 > span,
+h2 > span{
+    font-family: 'Poppins', sans-serif;
+}
