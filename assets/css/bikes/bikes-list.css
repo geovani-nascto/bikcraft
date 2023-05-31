@@ -4,9 +4,7 @@
 }
 
 .bikes-list h2{
-    width: 1200px;
-    padding: 0 20px;
-    margin: 0 auto 40px auto;
+    margin-bottom: 40px;
 }
 
 .bikes-list--items{

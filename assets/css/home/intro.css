@@ -8,9 +8,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0 40px;
-    max-width: 1200px;
-    padding: 0 20px;
-    margin: 0 auto;
 }
 
 .intro--content{
@@ -34,6 +31,7 @@
 .intro img{
     object-fit: cover;
     height: 100%;
+    width: 100%; /*Por conta do Safari*/
     border-radius: 4px;
 }
 
