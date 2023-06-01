@@ -4,6 +4,7 @@
 @import './util/colors.css';
 
 @import './global/header.css';
+@import './global/footer.css';
 
 /*Utilitários*/
 @import './util/components.css';
