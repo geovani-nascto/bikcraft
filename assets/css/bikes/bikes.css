@@ -1,5 +1,6 @@
 .bikes-bg{
-    background-color: var(--cor-11);
+    background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
+    /* box-shadow: inset 120px 0px #fff; */
 }
 
 .bikes{
@@ -31,6 +32,7 @@
 .bikes--content{
     display: grid;
     grid-template-columns: 1fr auto;
+    align-content: flex-start;
 }
 
 .bikes--content h2,
@@ -76,4 +78,29 @@
 
 .bikes--content img{
     width: 24px;
+}
+
+@media (max-width: 800px){
+    .bikes-bg{
+        background: var(--cor-11);
+    }
+    .bikes{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 600px){
+    .bikes--content{
+        grid-template-columns: 1fr;
+    }
+    .bikes ul{
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 32px;
+    }
+    .bikes a{
+        place-self: start;
+    }
 }
