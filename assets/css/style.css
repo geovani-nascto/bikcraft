@@ -8,6 +8,7 @@
 
 /*Utilitários*/
 @import './util/components.css';
+@import './util/form.css';
 
 /*Home*/
 @import './home/intro.css';
@@ -27,6 +28,10 @@
 @import './secures/secures.css';
 @import './secures/benefits.css';
 @import './secures/asking.css';
+
+/*Contato*/
+@import './contact/contact.css';
+@import './contact/shops.css';
 
 /*Termos*/
 @import './terms/terms.css';
