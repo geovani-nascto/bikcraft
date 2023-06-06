@@ -19,6 +19,10 @@
 @import './bikes/bikes-list.css';
 @import './bikes/bikes.css';
 
+/*Bicicleta*/
+@import './bike/bike.css';
+@import './bike/secure.css';
+
 /*Seguros*/
 @import './secures/secures.css';
 @import './secures/benefits.css';

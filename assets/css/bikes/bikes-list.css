@@ -12,9 +12,14 @@
     gap: 40px;
     padding: 0 20px 20px 20px;
     max-width: 1400px;
-    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
     overflow-x: auto;
     /* flex-wrap: wrap; */
+}
+
+#bike .bikes-list--items{
+    padding: 0 0 20px 0;
 }
 
 .bikes-list li{
