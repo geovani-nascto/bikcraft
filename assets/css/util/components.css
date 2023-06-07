@@ -85,6 +85,10 @@
     margin-bottom: 4px;
 }
 
+div > p{
+    color: inherit;
+}
+
 @media (max-width: 800px){
     .title-bg{
         padding: 40px 0;
