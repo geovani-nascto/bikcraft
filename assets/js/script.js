@@ -23,3 +23,23 @@ function productActive(param){
 }
 
 params.forEach(productActive);
+
+// Perguntas frequentes
+const asking = document.querySelectorAll('.asking button');
+
+function askActive(event){
+    const ask = event.currentTarget;
+    const controls = ask.getAttribute('aria-controls');
+    const response = document.getElementById(controls);
+
+    response.classList.toggle('active');
+    const actived = response.classList.contains('active')
+    ask.setAttribute('aria-expanded', actived)
+    // console.log(response);
+}
+
+function eventAsking(ask){
+    ask.addEventListener('click', askActive);
+}
+
+asking.forEach(eventAsking);
