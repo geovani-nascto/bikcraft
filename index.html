@@ -12,7 +12,7 @@
 <body>
     <header class="header-bg">
         <div class="header container">
-            <a href="#"><img src="./assets/img/bikcraft.svg" width="136" height="32" alt="Logo."></a>
+            <a href="./"><img src="./assets/img/bikcraft.svg" width="136" height="32" alt="Logo."></a>
             <nav aria-label="primária">
                 <ul class="header--menu font-1-m color-0">
                     <li><a href="./bikes.html">Bicicletas</a></li>
@@ -26,11 +26,11 @@
     <main class="intro-bg">
         <div class="intro container">
             <div class="intro--content">
-                <h1 class="font-1-xxl color-0">Bicicletas feitas sob medida<span class="color-p1">.</span></h1>
-                <p class="font-2-l color-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
-                <a href="./bikes.html" class="btn">Escolha a sua</a>
+                <h1 class="font-1-xxl color-0 fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="color-p1">.</span></h1>
+                <p class="font-2-l color-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
+                <a href="./bikes.html" class="btn fadeInDown" data-anime="600">Escolha a sua</a>
             </div>
-            <picture class="intro-img">
+            <picture class="intro-img fadeInDown" data-anime="800">
                 <source media="(max-width: 800px)" src="./assets/img/bicicletas/nimbus.jpg" type="">
                 <img src="./assets/img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta.">
             </picture>
@@ -181,6 +181,7 @@
         </div>
     </footer>
 
+    <script src="./assets/js/plugins/simple-anime.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

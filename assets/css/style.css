@@ -2,6 +2,7 @@
 @import './global/global.css';
 @import './util/typograph.css';
 @import './util/colors.css';
+@import './util/animation.css';
 
 @import './global/header.css';
 @import './global/footer.css';
