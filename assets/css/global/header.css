@@ -19,14 +19,14 @@
     flex-wrap: wrap;
 }
 
-.header--menu a li{
+.header--menu li a{
     display: inline-block;
     color: var(--cor-0);
     padding: 16px 0;
     position: relative;
 }
 
-.header--menu a li::after{
+.header--menu li a::after{
     content: '';
     display: block;
     height: 2px;
@@ -37,8 +37,9 @@
     position: absolute;
 }
 
-.header--menu a li:hover::after{
-    width: 100%;
+.header--menu a:hover::after,
+.header--menu a.active::after{
+    width: 100% !important;
 }
 
 @media (max-width: 800px){
