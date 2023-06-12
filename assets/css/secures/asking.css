@@ -50,11 +50,11 @@
     transform: rotate(180deg);
 }
 
-.asking dd{
+.js .asking dd{
     display: none;
 }
 
-.asking dd.active{
+.js .asking dd.active{
     display: block;
 }
 
